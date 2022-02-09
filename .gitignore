@@ -1,0 +1,5 @@
+bin/
+obj/
+.vs/
+ADDRESS_BOOK_LINQ.sln
+ADDRESS_BOOK_LINQ.csproj
