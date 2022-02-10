@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ADDRESS_BOOK_LINQ
 {
-    class AddressBookTable
+    class AddressBookSystem
     {
         DataTable table = new DataTable("AddressBookSystem"); // UC 1 Create a new DataTable
     }
