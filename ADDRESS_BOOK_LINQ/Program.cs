@@ -11,8 +11,13 @@ namespace ADDRESS_BOOK_LINQ
             // UC 1 Create a new table
             AddressBookSystem addressBookTable = new AddressBookSystem();
 
-            addressBookTable.GetAllContacts();
+            //addressBookTable.GetAllContacts();
+
+            addressBookTable.EditExistingContact("SUMIT", "RAWAT", "PhoneNumber", "876544315");
+
             Console.ReadLine();
+            
+
         }
     }
 }
