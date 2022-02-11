@@ -13,8 +13,9 @@ namespace ADDRESS_BOOK_LINQ
 
             //addressBookTable.GetAllContacts();
 
-            addressBookTable.EditExistingContact("SUMIT", "RAWAT", "PhoneNumber", "876544315");
+            //addressBookTable.EditExistingContact("SUMIT", "RAWAT", "PhoneNumber", "876544315");
 
+            addressBookTable.DeleteContact("sumit", "rawat");
             Console.ReadLine();
             
 
