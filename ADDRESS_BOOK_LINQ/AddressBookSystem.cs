@@ -61,5 +61,20 @@ namespace ADDRESS_BOOK_LINQ
             GetAllContacts();
 
         }
+        public void DeleteContact(string firstName, string lastName)
+        {
+            try
+            {
+                DataRow contact = table.Select("FirstName = '" + firstName + "' and LastName = '" + lastName + "'").FirstOrDefault();
+                table.Rows.Remove(contact);
+                Console.WriteLine("Record Successfully Delete");
+                GetAllContacts();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+        }
     }
 }
