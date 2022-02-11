@@ -10,6 +10,9 @@ namespace ADDRESS_BOOK_LINQ
 
             // UC 1 Create a new table
             AddressBookSystem addressBookTable = new AddressBookSystem();
+
+            addressBookTable.GetAllContacts();
+            Console.ReadLine();
         }
     }
 }
